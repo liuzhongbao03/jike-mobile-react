@@ -41,7 +41,7 @@ const HomeList = (props: Props) => {
   // 加载下一页的函数
   const loadMore = async () => {
     // 编写加载下一页的核心逻辑
-    console.log('上拉加载触发了')
+    console.log('上拉加载触发了...')
     try {
       const res = await fetchListAPI({
         channel_id: channelId,
